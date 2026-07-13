@@ -1,0 +1,6 @@
+table_name,rows,columns,duplicate_rows,missing_cells,missing_cell_pct
+fact_sales_clean,68723,8,0,0,0.0
+dim_customer_clean,2000,10,0,0,0.0
+dim_product_clean,180,8,0,0,0.0
+fact_sf_clean,39508,11,0,0,0.0
+df_sales_full,68723,24,0,0,0.0

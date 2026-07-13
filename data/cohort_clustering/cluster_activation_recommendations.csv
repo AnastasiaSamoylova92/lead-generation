@@ -1,0 +1,6 @@
+cohort_ML,business_meaning,recommended_action
+Emerging,Recent or growing customers with lower current value but positive momentum.,"Nurture with onboarding, starter bundles, and next-best-product offers."
+Core,Consistent customers with good engagement and cross-sell potential.,Use product recommendations for systematic cross-sell and upsell campaigns.
+Occasional,Customers with narrower buying patterns or specific needs.,"Target with highly relevant product recommendations, avoid broad generic campaigns."
+Dormant,"Customers with inactivity, long purchase gaps, or weak recent buying behavior.",Trigger win-back or reactivation campaigns; prioritize only if value potential is high.
+Power,"High-value, active, broad-product customers.","Protect relationship, offer premium bundles, prioritize strategic account management."

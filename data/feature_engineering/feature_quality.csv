@@ -1,0 +1,5 @@
+table,rows,columns,missing_cells,duplicate_customer_ids
+dim_customer_features,1993,67,0,0
+cust_prod_matrix_grp_1,1993,7,0,0
+cust_prod_matrix_grp_3,1993,36,0,0
+cust_prod_matrix_share_combined_grp_1_grp_3,1993,42,0,0

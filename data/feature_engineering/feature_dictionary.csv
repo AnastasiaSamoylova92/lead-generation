@@ -1,0 +1,17 @@
+feature,category,description
+Sales,Monetary,Total historical sales by customer.
+Units,Volume,Total units purchased by customer.
+distinct_products,Product breadth,Number of unique products purchased.
+prd_grp_1_coverage_pct,Product coverage,Share of product group 1 categories purchased.
+prd_grp_3_coverage_pct,Product coverage,Share of product group 3 categories purchased.
+active_months,Activity,Number of months with at least one purchase.
+lifetime_months,Tenure,Months between first and latest purchase.
+months_since_last_purchase,Recency,Months since the latest purchase.
+activity_ratio_lifetime,Activity,Active months divided by lifetime months.
+avg_inactive_gap_months,Inactivity,Average months between purchase months.
+historical_ltv,Value,"Historical customer value proxy, equal to cumulative sales."
+purchase_freq_per_year,Frequency,Annualized active purchase month frequency.
+sf_total_events,Salesforce,Total Salesforce activity events.
+sf_months_since_last_event,Salesforce,Months since latest Salesforce activity.
+sales_without_recent_sf_activity,Sales activation,Customer bought recently but had no recent Salesforce activity.
+sf_activity_without_recent_sales,Sales activation,Customer had recent Salesforce activity but no recent sales.

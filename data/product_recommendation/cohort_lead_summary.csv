@@ -1,0 +1,16 @@
+cohort_ML,lead_tier,recommendation_rows,customers,avg_lead_score
+Core,Hot,962,322,0.35405530247145595
+Core,Warm,4,2,0.2581274879475664
+Core,Cold,0,0,
+Dormant,Warm,80,35,0.19437688511257517
+Dormant,Cold,403,141,0.1366337923974092
+Dormant,Hot,0,0,
+Emerging,Hot,842,353,0.29093164363064694
+Emerging,Warm,2957,1078,0.22218602822778968
+Emerging,Cold,428,174,0.14763879668249524
+Occasional,Hot,4,2,0.2844655867499113
+Occasional,Warm,114,40,0.21422543113165154
+Occasional,Cold,8,4,0.16619686463474245
+Power,Hot,177,59,0.44429417460826676
+Power,Cold,0,0,
+Power,Warm,0,0,
