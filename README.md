@@ -4,7 +4,6 @@ End-to-end B2B analytics project for customer cohort segmentation, product recom
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ## Executive Summary
 This project simulates a realistic B2B sales environment and builds a complete analytics pipeline that transforms raw customer, product, sales, and Salesforce activity data into actionable sales intelligence. The final output enables sales teams to understand customer cohorts, identify cross-sell opportunities, prioritize leads, and monitor commercial performance through dashboard-ready outputs.
@@ -40,44 +39,56 @@ B2B sales teams often manage large customer portfolios with limited time and inc
 The business needs a data-driven way to priroitize sales outreach and recommend relevant product categories to cstomers. The challenge is to combine historical sales behavior, customer activity, product coverage, Salesforce engagement and customer value into a clear lead generation framework.
 
 ## Dataset
+The dataset is fully synthetic and does not contain real customer data, personal data or confidential company data. It was generated to resemble a realistic B2B commercial dataset.
 
+### Source Tables
+| Table | Description |
+|---|---|
+| `df_fact_sales` | Transaction-level monthly sales data by customer and product|
+| `df_dim_customer` | Customer dimension table with segment, size, industry, country and acquisition channel |
+| `df_dim_product` | Product dimension table with product hierarchy and unit price|
+| `df_fact_sf` | Salesforce activity table with activity count, selling time, activity type, sales rep and opportunity stage|
 
-## Architecture
-```text
-Generating synthetic files
-    |
-    v
-Data preprocessing and cleaning
-    |
-    v
-Customer-level feature engineering
-    |
-    +--> Product purchase matrices
-    |
-    +--> Activity, recency, frequency, LTV, and coverage metrics
-    |
-    v
-Cohort clustering
-    |
-    v
-Multi-label product recommendation models
-    |
-    v
-Lead scoring and final customer output
-    |
-    v
-Dashboard / sales activation table
-```
+### Data Dictionary
 
-## Technologies
+## Data Quality Assessment
+The project includes a structured data quality workflow before feature engineering and modeling. 
+- Missing values identified and handled
+- Duplicare records checked
+- Customer and product ID consistency validated
+- Invalid dates converted and reviewed
+- Negative sales and unit values checked
+- Data types standardized
+- Product hierarchy cardinality reviewed
+- Feature distributions reviewed before clustering
+
+## Technology Stack
 - Python
 - pandas
 - NumPy
 - scikit-learn
 - matplotlib
+- Random Forest
+- Logistic Regression
+- Kmeans
+- Agglomerative Clustering
+- PCA
 - Excel / openpyxl
-- Power BI or Tableau for dashboarding
+- Power BI for dashboarding
 - Jupyter Notebook for exploration
+
+## Architecture
+```mermaid
+flowchart TD
+    A["Synthetic Data Generation"] --> B["Data Cleaning"]
+    B --> C["Data Quality Assessment"]
+    C --> D["Feature Engineering"]
+    D --> E["Cohort Clustering"]
+    E --> F["Product Recommendation Modeling"]
+    F --> G["Lead Scoring"]
+    G --> H["Dashboard Development"]
+    H --> I["Business Recommendations"]
+```
 
 ## Dashboard
 
