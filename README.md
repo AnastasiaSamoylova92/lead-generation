@@ -89,18 +89,119 @@ flowchart TD
     G --> H["Dashboard Development"]
     H --> I["Business Recommendations"]
 ```
+## Methodology
+
+### Feature Engineering
+Customer-level features were created across several categories: 
+- Monetary features: total sales, historical LTV, average monthly revenu
+- Frequency features: active months, purchase frequency per year
+- Recency features: months since last purchase
+- Product breadth features: distinct products and prducts group coverage
+- Activity features: activity ratio, inactivity gap metrics
+- Salesforce features: total events,active months, selling time, engagement indicators
+- Product matrix features: binary purchase flags, purchase share matrices
+
+### Model Development
+The project includes 2 modeling layers: 
+- Cohort clustering for customer segmentation
+- Product recommendation models for lead generation
+
+Models used: 
+- Agglomerative Clustering
+- KMeans
+- Logistic Regression
+- Random Forest
+
+### Evaluation
+Clustering was evaluated using:
+- Silhouette Score
+- Calinsiki-Harabasz Score
+- Davies-Bouldin Score
+- Business interpretability of clusters
+
+Recommendation models were evaluated using: 
+- Average Precision
+- ROC-AUC
+- Precision at threshold
+- Recall at threshold
+- Popularity baseline comparison
 
 ## Dashboard
+The dashboard concept enables stakeholders to:
+- Monitor sales KPIs
+- Analyze customer cohorts
+- Review product group performance
+- Track lead tier distribution
+- Identify high-prioritay leasd opportunities
+- Monitor sales activiation gaps
+
+### Dashboard Screenshots
+
+#### Executive Overview
+![Executive Overview](images/01_executive_overview.png)
+
+#### Cohort Performance
+![Cohort Performance](images/02_cohort_performance.png)
+
+#### Lead Generation
+![Lead Generation](images/03_lead_generation.png)
 
 ## Results
-The project produces:
 
-- Customer cohorts such as Power, Core, Emerging, Selective and Occasional customers.
-- Top product recommendations per customer for product group 1 and product group 3.
-- A combined lead score that considers model probability, customer value, activity, and churn risk.
-- A final output table suitable for dashboarding or CRM activation.
+### Model Performance
 
-## Folder Structure
+The notebook workflow produces model registry outputs for each product target. These include validation metrics and baseline comparisons.
+
+| Model | Use Case | Main Metric | Purpose |
+|---|---|---|---|
+| Agglomerative Clustering | Customer cohort segmentation | Silhouette Score | Identify behavioral customer groups |
+| KMeans | Alternative clustering benchmark | Silhouette Score | Compare cluster structure |
+| Logistic Regression | Product recommendation | Average Precision | Interpretable classification baseline |
+| Random Forest | Product recommendation | Average Precision | Nonlinear product recommendation model |
+
+## Key Insights
+
+1. Customer value and activity are not the same: some high-value customers show reduced recent activity and should be monitored for retention risk.
+
+2. Product coverage varies significantly across customers, creating clear cross-sell opportunities.
+
+3. Cohort-based segmentation makes lead prioritization more actionable than treating all customers equally.
+
+4. Salesforce activity can reveal customers with commercial engagement but no recent sales, creating a useful follow-up pool.
+
+5. A lead score is more useful than model probability alone because it combines predictive and business relevance.
+
+## Business Recommendations
+
+### Short-Term Actions
+- Prioritize Hot LEads with high model probability and high customer value
+- Use cohort labels to tailor sales messaging
+- Target customers with recent Salesforce activity but no recent sales
+- Create cross-sell campaigns for customers with los product coverage
+- Review At-Risk / Dormant customers for reactivation campaigns
+
+### Long-Term Actions
+- Connect lead scoring outputs to CRM workflows
+- Track conversion rated by lead tier and cohort
+- Validate lead score weights using real sales outcomes
+- Build a feedback loop between sales actions and model retraining 
+- Expand the dashboard into an operatopnal sales monitoring tool
+
+## Limitations
+- The dataset is synthetic and does not represent a real company
+- Recommendation targets are based on historical product ownership rather than true future purchase behavior
+- External market factors are not included
+- Lead score weights are business assumptions and should be validated with conversion data
+
+## Future Improvements
+- Use a time-based train/test split for recommendation modeling
+- Predict next-period product purchase instead of historical product ownership
+- add probability calibration
+- Add SHAP or permutation importance for model explainability
+- Add expected revenue or margin uplift to lead scoring
+- Add SQL-based transformations for warehouse-style workflows
+
+## Repository Structure
 ```text
 lead-generation/
 │
@@ -113,7 +214,7 @@ lead-generation/
 │   └── dashboard_datasets/
 │
 ├── notebooks/
-│   ├── 00_generate_synthetic_dataset.ipynb
+│   ├── 00_generate_synthetic_dataset.py
 │   ├── 01_preprocessing.ipynb
 │   ├── 02_feature_engineering.ipynb
 │   ├── 03_cohort_clustering.ipynb
@@ -124,18 +225,51 @@ lead-generation/
 │   └── Lead Generation.pbix
 │
 ├── images/
-│   ├── executive_overview.png
-│   ├── .png
-│   └── .png
+│   ├── 01_executive_overview.png
+│   ├── 02_cohort_performance.png
+│   └── 03_lead_generation.png
 │
 ├── requirements.txt
 └── README.md
 ```
 
 ## Installation
+1. Clone the repository.
 
-## Future Improvements
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
 
-## Contact
+2. Create and activate a virtual environment.
+
+```bash
+python -m venv .venv
+```
+
+```bash
+.venv\Scripts\activate
+```
+
+3. Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the notebooks in order.
+
+```text
+00_generate_synthetic_dataset.py
+01_data_preprocessing_cleaning.ipynb
+02_feature_engineering.ipynb
+03_cohort_clustering.ipynb
+04_product_recommendation_lead_generation.ipynb
+05_dashboard_datasets.ipynb
+```
+
+## Author
+
+Anastasia Samoylova
 
 
