@@ -234,31 +234,16 @@ lead-generation/
 ```
 
 ## Installation
-1. Clone the repository.
-
+Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/AnastasiaSamoylova92/lead-generation.git
+cd lead-generation
 ```
-
-2. Create and activate a virtual environment.
-
-```bash
-python -m venv .venv
-```
-
-```bash
-.venv\Scripts\activate
-```
-
-3. Install dependencies.
-
+Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
-4. Run the notebooks in order.
-
+Run the notebooks in order:
 ```text
 00_generate_synthetic_dataset.py
 01_data_preprocessing_cleaning.ipynb
@@ -269,7 +254,6 @@ pip install -r requirements.txt
 ```
 
 ## Author
-
 Anastasia Samoylova
-
+M.Sc. | BI & Data Analytics | ML
 
