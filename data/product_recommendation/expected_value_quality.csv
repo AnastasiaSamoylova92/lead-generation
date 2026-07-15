@@ -1,0 +1,7 @@
+metric,value
+recommendation rows,60990.0
+missing expected order value,0.0
+non-positive expected order value,0.0
+missing expected revenue,0.0
+segment-product fallback share,0.0
+median segment-product support,367.0

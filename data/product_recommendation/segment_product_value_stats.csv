@@ -1,0 +1,206 @@
+value_segment,product_group,recommended_product,segment_product_mean_order_value,segment_product_median_order_value,segment_product_value_events
+Distributor,grp1,Automation Modules,4974.144807619048,3361.84,1260
+Distributor,grp1,Core Products,866.1407829787233,623.675,1692
+Distributor,grp1,Maintenance Kits,1349.5838509170947,957.61,1363
+Distributor,grp1,Premium Products,3108.280284412812,2185.54,1405
+Distributor,grp1,Safety Solutions,757.2329061143985,643.1,507
+Distributor,grp1,Service Contracts,6357.2128925599,4662.18,793
+Distributor,grp3,Calibration Kits Type 1,996.5913033898306,805.6099999999999,236
+Distributor,grp3,Calibration Kits Type 2,1213.8827829508198,983.91,305
+Distributor,grp3,Compliance Safety Type 1,867.3119608247423,721.54,97
+Distributor,grp3,Compliance Safety Type 2,923.969109859155,859.63,71
+Distributor,grp3,Controllers Type 1,5746.411545348837,4137.29,344
+Distributor,grp3,Controllers Type 2,4102.189767346939,2842.1099999999997,196
+Distributor,grp3,Core Advanced Type 1,892.6452430992737,621.21,413
+Distributor,grp3,Core Advanced Type 2,716.1547170588234,531.675,510
+Distributor,grp3,Core Basic Type 1,695.1423455999998,541.06,375
+Distributor,grp3,Core Basic Type 2,576.5745564356436,429.96,505
+Distributor,grp3,Core Replacement Type 1,563.7357371541502,472.44,253
+Distributor,grp3,Core Replacement Type 2,742.205,733.8050000000001,56
+Distributor,grp3,Extended Support Type 1,4591.82879652174,3263.9449999999997,230
+Distributor,grp3,Extended Support Type 2,4948.067863157895,3748.6949999999997,38
+Distributor,grp3,Facility Safety Type 2,593.9387586206897,485.52,145
+Distributor,grp3,Installation Type 1,7730.642542372881,6170.225,118
+Distributor,grp3,Installation Type 2,4226.572839506173,3277.15,81
+Distributor,grp3,Monitoring Type 1,3686.543032195122,2870.07,205
+Distributor,grp3,Monitoring Type 2,2588.2764063492064,1962.5700000000002,126
+Distributor,grp3,Personal Safety Type 1,710.7281525000001,641.0699999999999,160
+Distributor,grp3,Personal Safety Type 2,657.1013877551021,556.99,49
+Distributor,grp3,Premium Custom Type 1,2740.2177763779523,2116.8,127
+Distributor,grp3,Premium Custom Type 2,2948.880341906873,2311.09,451
+Distributor,grp3,Premium Plus Type 1,2306.44595625,1680.745,320
+Distributor,grp3,Premium Plus Type 2,2326.2825762711864,1758.81,295
+Distributor,grp3,Premium Standard Type 1,1495.0851386861314,1196.27,137
+Distributor,grp3,Premium Standard Type 2,2480.429031858407,1659.505,452
+Distributor,grp3,Preventive Kits Type 1,1173.4658049999998,917.9300000000001,220
+Distributor,grp3,Preventive Kits Type 2,927.6241702127659,593.39,188
+Distributor,grp3,Repair Kits Type 1,1154.4105668508287,765.62,362
+Distributor,grp3,Repair Kits Type 2,1170.3954256559766,929.88,343
+Distributor,grp3,Sensors Type 1,4414.52750647482,3443.17,278
+Distributor,grp3,Sensors Type 2,3512.7822626506027,2652.17,332
+Distributor,grp3,Training Type 1,6172.418395721925,4976.81,187
+Distributor,grp3,Training Type 2,5862.918809012875,4233.71,233
+Enterprise,grp1,Automation Modules,8233.67809170732,5704.639999999999,2460
+Enterprise,grp1,Core Products,1184.3417463373085,859.44,1174
+Enterprise,grp1,Maintenance Kits,1778.1527385749387,1332.7350000000001,814
+Enterprise,grp1,Premium Products,3449.2338527075813,2579.77,1385
+Enterprise,grp1,Safety Solutions,969.693862820513,771.1949999999999,468
+Enterprise,grp1,Service Contracts,10056.248566921606,7339.68,1569
+Enterprise,grp3,Calibration Kits Type 1,1279.2551540000002,1080.545,100
+Enterprise,grp3,Calibration Kits Type 2,1542.4679281767956,1161.88,181
+Enterprise,grp3,Compliance Safety Type 1,750.23631625,566.505,160
+Enterprise,grp3,Compliance Safety Type 2,1272.3953114754102,1157.8,61
+Enterprise,grp3,Controllers Type 1,8393.62349707241,5837.71,649
+Enterprise,grp3,Controllers Type 2,5970.267606962026,4505.764999999999,632
+Enterprise,grp3,Core Advanced Type 1,1389.6006037037037,1058.415,216
+Enterprise,grp3,Core Advanced Type 2,944.5974328571423,765.345,350
+Enterprise,grp3,Core Basic Type 1,1096.647910204081,954.3399999999999,196
+Enterprise,grp3,Core Basic Type 2,857.7762301724141,614.065,348
+Enterprise,grp3,Core Replacement Type 1,1024.6795990338164,819.38,207
+Enterprise,grp3,Core Replacement Type 2,1833.4598,1800.73,30
+Enterprise,grp3,Extended Support Type 1,7996.943850938338,5179.05,373
+Enterprise,grp3,Extended Support Type 2,7203.877150326797,6280.65,153
+Enterprise,grp3,Facility Safety Type 2,720.1758823529412,610.61,102
+Enterprise,grp3,Installation Type 1,11908.109596296297,9479.82,405
+Enterprise,grp3,Installation Type 2,5473.895205847953,4397.46,171
+Enterprise,grp3,Monitoring Type 1,5214.658726701571,4018.5150000000003,382
+Enterprise,grp3,Monitoring Type 2,3759.432917274939,2943.43,411
+Enterprise,grp3,Personal Safety Type 1,1088.2290583333327,826.6099999999999,108
+Enterprise,grp3,Personal Safety Type 2,885.8275,784.745,68
+Enterprise,grp3,Premium Custom Type 1,3110.2384192771074,2260.13,83
+Enterprise,grp3,Premium Custom Type 2,3155.3514071759255,2504.8,432
+Enterprise,grp3,Premium Plus Type 1,2874.6350424242423,2627.96,264
+Enterprise,grp3,Premium Plus Type 2,3667.2877659367396,2841.68,411
+Enterprise,grp3,Premium Standard Type 1,1634.576,1423.5,75
+Enterprise,grp3,Premium Standard Type 2,2346.9159771604936,1832.92,324
+Enterprise,grp3,Preventive Kits Type 1,1615.215549264705,1265.84,136
+Enterprise,grp3,Preventive Kits Type 2,1513.0382061855669,1278.39,97
+Enterprise,grp3,Repair Kits Type 1,1762.1858987124463,1238.68,233
+Enterprise,grp3,Repair Kits Type 2,1827.2975126903552,1453.06,197
+Enterprise,grp3,Sensors Type 1,5779.0835682352945,4648.665,680
+Enterprise,grp3,Sensors Type 2,5963.813045317221,4510.87,662
+Enterprise,grp3,Training Type 1,9351.931515844155,7340.37,385
+Enterprise,grp3,Training Type 2,5927.294921348314,4746.88,445
+Mid-Market,grp1,Automation Modules,4341.799568006399,2888.74,5001
+Mid-Market,grp1,Core Products,653.9425555189873,432.095,3950
+Mid-Market,grp1,Maintenance Kits,956.9718772765015,645.14,3613
+Mid-Market,grp1,Premium Products,1896.1938809399476,1281.83,1532
+Mid-Market,grp1,Safety Solutions,696.3402826247691,508.365,1082
+Mid-Market,grp1,Service Contracts,4441.809457822725,3021.0,1681
+Mid-Market,grp3,Calibration Kits Type 1,509.08965988909426,386.94,541
+Mid-Market,grp3,Calibration Kits Type 2,851.278055890411,614.015,730
+Mid-Market,grp3,Compliance Safety Type 1,568.1787408934708,422.1,291
+Mid-Market,grp3,Compliance Safety Type 2,721.7492949152543,524.39,118
+Mid-Market,grp3,Controllers Type 1,3642.833058945805,2567.73,1347
+Mid-Market,grp3,Controllers Type 2,3042.17538477306,2144.6549999999997,1366
+Mid-Market,grp3,Core Advanced Type 1,640.4824264830507,427.01,944
+Mid-Market,grp3,Core Advanced Type 2,577.6386173778122,408.3,1289
+Mid-Market,grp3,Core Basic Type 1,535.5658866412213,396.265,1048
+Mid-Market,grp3,Core Basic Type 2,407.834935278031,274.53,1097
+Mid-Market,grp3,Core Replacement Type 1,418.11517198177677,294.18,439
+Mid-Market,grp3,Core Replacement Type 2,560.075605839416,531.2,137
+Mid-Market,grp3,Extended Support Type 1,4324.057847619048,2492.21,357
+Mid-Market,grp3,Extended Support Type 2,3911.595093023256,2930.79,172
+Mid-Market,grp3,Facility Safety Type 2,493.22777777777776,353.62,171
+Mid-Market,grp3,Installation Type 1,4974.420283185841,3611.54,339
+Mid-Market,grp3,Installation Type 2,3952.2467814126394,2813.43,269
+Mid-Market,grp3,Monitoring Type 1,3034.5581309734516,2246.35,1017
+Mid-Market,grp3,Monitoring Type 2,2168.547211898017,1591.375,706
+Mid-Market,grp3,Personal Safety Type 1,726.1177617499999,562.34,400
+Mid-Market,grp3,Personal Safety Type 2,675.690606060606,552.645,198
+Mid-Market,grp3,Premium Custom Type 1,2027.3566805194805,1701.8600000000001,154
+Mid-Market,grp3,Premium Custom Type 2,2150.637401068376,1562.585,468
+Mid-Market,grp3,Premium Plus Type 1,1775.3607327510917,1366.26,229
+Mid-Market,grp3,Premium Plus Type 2,1755.6703636963696,1287.44,303
+Mid-Market,grp3,Premium Standard Type 1,881.4028181818181,718.025,154
+Mid-Market,grp3,Premium Standard Type 2,1308.3677289340103,842.36,394
+Mid-Market,grp3,Preventive Kits Type 1,785.78738305304,595.88,773
+Mid-Market,grp3,Preventive Kits Type 2,842.3647724358974,582.0550000000001,624
+Mid-Market,grp3,Repair Kits Type 1,805.6454208675264,566.29,853
+Mid-Market,grp3,Repair Kits Type 2,859.35349078341,651.51,868
+Mid-Market,grp3,Sensors Type 1,3214.805243053645,2289.74,1454
+Mid-Market,grp3,Sensors Type 2,3049.2797998217466,2206.715,1122
+Mid-Market,grp3,Training Type 1,4536.284870431894,3488.64,301
+Mid-Market,grp3,Training Type 2,2991.434925675676,2166.7200000000003,370
+Public Sector,grp1,Automation Modules,3317.49716087409,2182.17,961
+Public Sector,grp1,Core Products,626.7869730195179,462.83,871
+Public Sector,grp1,Maintenance Kits,650.6508817802503,492.07,719
+Public Sector,grp1,Premium Products,1995.5691418994415,1363.91,537
+Public Sector,grp1,Safety Solutions,652.5551041994752,403.45,762
+Public Sector,grp1,Service Contracts,5499.740966615969,3514.5699999999997,1315
+Public Sector,grp3,Calibration Kits Type 1,528.5330807453416,467.6,161
+Public Sector,grp3,Calibration Kits Type 2,609.0724096551725,488.39,145
+Public Sector,grp3,Compliance Safety Type 1,419.4014364640884,338.8,181
+Public Sector,grp3,Compliance Safety Type 2,775.2453224137931,687.1500000000001,116
+Public Sector,grp3,Controllers Type 1,2781.487919708029,2123.16,274
+Public Sector,grp3,Controllers Type 2,3551.0121999999997,2409.945,234
+Public Sector,grp3,Core Advanced Type 1,624.2755115879828,478.38,233
+Public Sector,grp3,Core Advanced Type 2,525.0986665615142,334.54,317
+Public Sector,grp3,Core Basic Type 1,456.75793519553076,365.91,179
+Public Sector,grp3,Core Basic Type 2,428.8248838427948,295.35,229
+Public Sector,grp3,Core Replacement Type 1,377.18860185185184,224.47,108
+Public Sector,grp3,Core Replacement Type 2,482.67425000000003,500.68,28
+Public Sector,grp3,Extended Support Type 1,4784.397720603015,3076.71,398
+Public Sector,grp3,Extended Support Type 2,3335.359816470588,2366.51,85
+Public Sector,grp3,Facility Safety Type 2,519.5191954022989,349.24,261
+Public Sector,grp3,Installation Type 1,5315.706442786069,4021.745,402
+Public Sector,grp3,Installation Type 2,3714.1311980952382,2830.84,210
+Public Sector,grp3,Monitoring Type 1,2784.345996969697,2137.96,132
+Public Sector,grp3,Monitoring Type 2,956.3409375,801.415,64
+Public Sector,grp3,Personal Safety Type 1,702.9433225941422,468.19,239
+Public Sector,grp3,Personal Safety Type 2,479.968425,379.305,80
+Public Sector,grp3,Premium Custom Type 1,2210.4666666666667,1912.795,78
+Public Sector,grp3,Premium Custom Type 2,2231.006535185185,1361.665,162
+Public Sector,grp3,Premium Plus Type 1,1847.287986577181,1535.45,149
+Public Sector,grp3,Premium Plus Type 2,1553.006694488189,1287.74,127
+Public Sector,grp3,Premium Standard Type 1,563.0323529411764,537.94,17
+Public Sector,grp3,Premium Standard Type 2,704.5512050632911,621.73,79
+Public Sector,grp3,Preventive Kits Type 1,635.3823325925925,531.9,135
+Public Sector,grp3,Preventive Kits Type 2,657.0802368421053,535.765,76
+Public Sector,grp3,Repair Kits Type 1,430.98685555555556,335.67,180
+Public Sector,grp3,Repair Kits Type 2,681.2931344537815,580.47,119
+Public Sector,grp3,Sensors Type 1,2134.4787523219816,1648.93,323
+Public Sector,grp3,Sensors Type 2,3002.673264556962,1829.55,158
+Public Sector,grp3,Training Type 1,4210.844633220339,3541.85,295
+Public Sector,grp3,Training Type 2,3003.681693290735,2055.13,313
+SMB,grp1,Automation Modules,1460.1016013468013,919.45,3267
+SMB,grp1,Core Products,295.97903102197563,183.06,4687
+SMB,grp1,Maintenance Kits,395.25584869326,263.25,2181
+SMB,grp1,Premium Products,730.4233264150944,488.01,1696
+SMB,grp1,Safety Solutions,270.3750592277719,190.63,2823
+SMB,grp1,Service Contracts,2006.902997425829,1241.5149999999999,2292
+SMB,grp3,Calibration Kits Type 1,295.83402191780823,199.47,365
+SMB,grp3,Calibration Kits Type 2,323.8814583106267,187.67,367
+SMB,grp3,Compliance Safety Type 1,227.67749694749693,167.07,819
+SMB,grp3,Compliance Safety Type 2,250.54319664634147,149.53,328
+SMB,grp3,Controllers Type 1,1544.1933832790444,893.64,921
+SMB,grp3,Controllers Type 2,1092.6086864433812,715.55,627
+SMB,grp3,Core Advanced Type 1,273.7697314696486,171.115,1252
+SMB,grp3,Core Advanced Type 2,223.92975453890492,148.88,1388
+SMB,grp3,Core Basic Type 1,221.11692042310824,146.23000000000002,1229
+SMB,grp3,Core Basic Type 2,191.61631407799075,124.43,1513
+SMB,grp3,Core Replacement Type 1,195.69465312046447,117.32,689
+SMB,grp3,Core Replacement Type 2,248.62199310344826,98.24,145
+SMB,grp3,Extended Support Type 1,1581.967311304348,1116.37,575
+SMB,grp3,Extended Support Type 2,1543.2169061728393,1170.4299999999998,162
+SMB,grp3,Facility Safety Type 2,200.0881163434903,115.685,722
+SMB,grp3,Installation Type 1,2495.9564053156146,1770.915,602
+SMB,grp3,Installation Type 2,1398.6680673076921,1067.105,208
+SMB,grp3,Monitoring Type 1,1384.3786890052356,944.75,573
+SMB,grp3,Monitoring Type 2,688.1000930107526,497.475,372
+SMB,grp3,Personal Safety Type 1,269.9465783181357,189.55,987
+SMB,grp3,Personal Safety Type 2,214.855461928934,143.935,394
+SMB,grp3,Premium Custom Type 1,994.9544095808383,800.79,167
+SMB,grp3,Premium Custom Type 2,766.3532172557173,511.41,481
+SMB,grp3,Premium Plus Type 1,655.3032771331058,373.71,293
+SMB,grp3,Premium Plus Type 2,669.872307329843,488.27,382
+SMB,grp3,Premium Standard Type 1,372.0161717791411,283.37,163
+SMB,grp3,Premium Standard Type 2,528.1976281081081,407.1,370
+SMB,grp3,Preventive Kits Type 1,358.07934655172414,261.71000000000004,406
+SMB,grp3,Preventive Kits Type 2,375.0681679790026,216.49,381
+SMB,grp3,Repair Kits Type 1,280.1200230215827,179.37,417
+SMB,grp3,Repair Kits Type 2,375.7368333333333,263.99,612
+SMB,grp3,Sensors Type 1,1215.0826512195122,829.74,820
+SMB,grp3,Sensors Type 2,905.2593092511013,652.43,681
+SMB,grp3,Training Type 1,2150.9201480885313,1677.39,497
+SMB,grp3,Training Type 2,1144.8094564356436,748.47,505
